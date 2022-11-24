@@ -65,7 +65,7 @@ img {
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    
+    color: #161616 !important;
 }
 a{
 	text-decoration: none !important;
@@ -132,7 +132,12 @@ a{
     font-weight: 700;
     
 }
-
+.main{
+	padding-top: 120px;
+}
+.main-content {
+	margin-top: 100px;
+}
 .header__regist {
     display: flex;
     justify-content: end;
@@ -546,8 +551,13 @@ a{
 	max-width:100%;
 }
 .registre-block{
-	display: flex;
 	gap: 16px;
+	position: relative;
+}
+.registre-icon-req{
+	position: absolute;
+	right: -16px;
+	top: 0;
 }
 .registre-role{
 	font-size: 20px;
@@ -558,7 +568,14 @@ a{
     color: #006095;
     transition: border-bottom .2s ease-in, outline .2s ease-in, color .2s ease-in;
 }
-
+.registre-title{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	color: #006095;
+	text-align: center;
+	margin-bottom: 32px;
+}
 .register-account__link:focus-visible {
     outline: 1px solid #006095;
 }
@@ -614,6 +631,7 @@ a{
 /* faq */
 .faq {
     background: #00283E;
+	padding: 50px 0;
 }
 
 .faq__container {
@@ -695,7 +713,7 @@ a{
 }
 
 .faq__phone svg {
-    border-radius: 100%;
+ 
 }
 
 .faq__phone:hover svg {
@@ -721,6 +739,7 @@ a{
 }
 /* footer */
 .footer {
+	padding: 50px 0;
     background: #22262C;
 }
 
@@ -799,6 +818,23 @@ a{
 	flex-wrap: wrap;
 	gap: 58px;
 }
+/*/////////// TEAM */
+.team-header{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+}
+.emloee-img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	align-items: center;
+}
+.desc{
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+}
 /* UTILITIES */
 .w220{
 	width: 220px;
@@ -829,4 +865,7 @@ a{
 }
 .tac{
 	text-align: center;
+}
+.dib{
+	display: inline-block !important;
 }

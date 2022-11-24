@@ -14,43 +14,39 @@
    <section class="registration">
     <div class="container">
 		<div class="row align-items-center">
-
 			<div class="col-sm-12 col-md-7">
 				<img src="./img/registration-img.jpg" alt="" class="img-registre">
 			</div>
 			<div class="col-sm-12 col-md-5 tac">
-				<div class="registre-title">Регистрация</div>
-				<form action="" class="form">
-					<div class="registre-block w-100">
-						<input class="form-control form-control-lg mb16" type="text" placeholder="Ваше ФИО" aria-label=".form-control-lg example" required>
-						<div class="cr registre-icon-req">*</div>
-					</div>
+				<div class="registre-title">Восстановление <br>пароля</div>
+				<form action="" class="form" method="post">
 					<div class="registre-block">
 						<input class="form-control form-control-lg mb16" type="tel" placeholder="Номер телефона" aria-label=".form-control-lg example" required>
 						<div class="cr registre-icon-req">*</div>
 					</div>
+					<div class="registre-role mb16">Попробуйте указать:</div>
 					<div class="registre-block">
-						<input class="form-control form-control-lg mb16" type="email" placeholder="E-mail" aria-label=".form-control-lg example" >
-					</div>
-					<div class="registre-block">
-						<input class="form-control form-control-lg mb16" type="password" placeholder="Придумайте пароль" aria-label=".form-control-lg example" required>
-						<div class="cr registre-icon-req">*</div>
-					</div>
-					<div class="registre-block">
-						<input class="form-control form-control-lg mb16" type="password" placeholder="Повторите пароль" aria-label=".form-control-lg example" required>
-						<div class="cr registre-icon-req">*</div>
+						<input class="form-control form-control-lg mb16 dib" type="email" placeholder="E-mail" aria-label=".form-control-lg example" >
+						<!-- <div class="cr">*</div> -->
 					</div>
 					<div class="registre-role mb16"><span class="cr">*</span> Ваша роль:</div>
 					<div class="registre-block">
-						<select class="form-select form-control-lg mb70" aria-label="Default select example" placeholder="Выбрать">
+						<select class="form-select form-control-lg mb16" aria-label="Default select example">
 							<option value="" disabled selected>Выбрать</option>
 							<option value="1">Даритель</option>
 							<option value="2">Подопечный</option>
 							<option value="3">Кондитерская</option>
 						  </select>
-						  <div>      </div>
 					</div>
-					<button class="btn btn-primary w-100" type="button" disabled="true">Зарегистрироваться</button>
+					<div class="registre-block">
+						<input class="form-control form-control-lg mb16" type="password" placeholder="Придумайте пароль" aria-label=".form-control-lg example" required>
+						<div class="cr registre-icon-req">*</div>
+					</div>
+					<div class="registre-block mb70">
+						<input class="form-control form-control-lg mb16" type="password" placeholder="Повторите пароль" aria-label=".form-control-lg example" required>
+						<div class="cr registre-icon-req">*</div>
+					</div>
+					<button class="btn btn-primary w-100" type="button" disabled="true">Продолжить</button>
 
 				</form>
 			</div>
