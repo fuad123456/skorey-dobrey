@@ -1,0 +1,21 @@
+@media (max-width: 992px) {
+    .confectionery__optimal,
+    .confectionery__premium,
+    .confectionery__economy {
+        
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+}
+@media (max-width: 768px) {
+    .confectionery__optimal,
+    .confectionery__premium,
+    .confectionery__economy {
+        
+        grid-template-columns: repeat(1, 1fr);
+        gap: 32px;
+    }
+    .confectionery__img {
+        min-width: 100%;
+    }
+}
