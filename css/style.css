@@ -875,3 +875,7 @@ a{
 	font-weight: 700 !important;
 	font-size: 20px !important;
 }
+.my32{
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
