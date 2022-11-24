@@ -869,3 +869,9 @@ a{
 .dib{
 	display: inline-block !important;
 }
+.cg{
+	background: #B9B9B9 !important;
+	letter-spacing: 0.06em !important;
+	font-weight: 700 !important;
+	font-size: 20px !important;
+}
