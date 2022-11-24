@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="libs/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="./css/bank.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#"> <img src="img/Logo.svg" alt="" class="logo-img"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,12 +41,15 @@
     </header>
     <main class="main">
         <section class="hero">
-            <div class="container hero__container">
-                <h1 class="visually-hidden">Благотворительный сервис кондитеров</h1>
-                <h2 class="hero__title">Помогать во&nbsp;благо другим и&nbsp;себе</h2>
-                <p class="hero__descr">Развиваем позитивную благотворительность,
-                    раскрывая доброту в&nbsp;каждом</p>
-                <button class="hero__btn btn-reset">Заказать торт</button>
+            <div class="container ">
+				<div class="hero__container">
+					<h1 class="visually-hidden">Благотворительный сервис кондитеров</h1>
+					<h2 class="hero__title">Помогать во&nbsp;благо другим и&nbsp;себе</h2>
+					<p class="hero__descr">Развиваем позитивную благотворительность,
+						раскрывая доброту в&nbsp;каждом</p>
+				</div>
+
+                <button class="btn btn-primary btn-lg w220" type="button">Заказать торт</button>
             </div>
         </section>
         <section class="project">
@@ -223,6 +225,7 @@
             </div>
         </section>
 		<section class="section ">
+			<hr>
 			<div class="container">
 				<h2 class="hero__title">Электронная платёжная система</h2>
 				<span class="hero__subtitle">Информация о компании</span>
@@ -256,6 +259,7 @@
 				</div>
 			</div>
 		</section>
+		
         <section class="location">
             <div class="container">
                 <div class="location__content">

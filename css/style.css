@@ -71,7 +71,6 @@ body {
 /* header */
 .header {
     width: 100%;
-    position: fixed;
     background-color: #fff;
     z-index: 2;
     box-shadow: 0px 4px 40px rgba(22, 22, 22, 0.1);
@@ -143,10 +142,15 @@ body {
 
 /* hero */
 .hero {
+	margin-top: 120px;
     background-image: url(../img/hero-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 146px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .visually-hidden {
@@ -160,16 +164,18 @@ body {
 }
 
 .hero__container {
-    padding-top: 170px;
-    padding-bottom: 170px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
     color: #fff;
 }
 
 .hero__title {
     font-weight: 700;
     font-size: 32px;
-    color: #161616;
-    margin-bottom: 32px;
+    color: #ffffff;
+    
 }
 
 .hero__descr {
@@ -391,6 +397,7 @@ body {
 /* entry-form */
 .entry-form {
     background-color: #006095;
+	padding: 80px 0;
 }
 
 .entry-form__container {
@@ -770,4 +777,13 @@ body {
 
 .section{
 	margin-top: 44px;
+}
+.bank-cards{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 58px;
+}
+/* UTILITIES */
+.w220{
+	width: 220px;
 }
