@@ -835,6 +835,27 @@ a{
 	font-size: 24px;
 	line-height: 28px;
 }
+/* WARD */
+.ward-main-block{
+	margin: 0 auto;
+	max-width:100%;
+
+}
+.ward-block{
+	box-shadow: 0px 0px 10px rgba(22, 22, 22, 0.15);
+	max-width: 840px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 32px 0;
+}
+.ward-info-desc{
+	box-shadow: 0px 4px 10px rgba(22, 22, 22, 0.1);
+	border-radius: 5px;
+	max-width: 470px;
+	padding: 10px 23px;
+}
 /* UTILITIES */
 .w220{
 	width: 220px;
@@ -878,4 +899,7 @@ a{
 .my32{
 	margin-top: 32px;
 	margin-bottom: 32px;
+}
+.m0a{
+	margin: 0 auto;
 }
