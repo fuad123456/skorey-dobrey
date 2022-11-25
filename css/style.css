@@ -83,7 +83,6 @@ a{
     justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 25px;
-    
 }
 
 .header__menu {
@@ -130,7 +129,6 @@ a{
 .header__tel {
     color: #161616;
     font-weight: 700;
-    
 }
 .main{
 	padding-top: 120px !important;
@@ -233,7 +231,7 @@ a{
     color: #161616;
 }
 
-.project__title {   
+.project__title {
     font-weight: 700;
     font-size: 24px;
     color: #161616;
@@ -254,8 +252,8 @@ a{
 
 .project__link {
     font-weight: 400;
-    font-size: 20px;  
-    color: #006095; 
+    font-size: 20px;
+    color: #006095;
     line-height: 28px;
     border-bottom: 1px dashed #006095;
     outline: none;
@@ -426,7 +424,6 @@ a{
 .entry-form__content {
     display: flex;
     justify-content: center;
-  
 }
 
 .entry-form__left {
@@ -440,13 +437,12 @@ a{
 
 .entry-form__right {
     width: 43%;
-    background-color: #fff;   
+    background-color: #fff;
 }
 
 .entry-form__right-content {
     display: flex;
     flex-direction: column;
-    
     justify-content: space-between;
     padding: 48px 63px 48px 80px;
 }
