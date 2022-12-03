@@ -135,6 +135,7 @@ a{
 }
 .main-content {
 	margin-top: 100px;
+	padding-top: 100px;
 }
 .header__regist {
     display: flex;
@@ -623,7 +624,14 @@ a{
     height: 22px;
     margin-right: 16px;
 }
-
+.confectionery__price {
+    font-weight: 700;
+    font-size: 24px;
+}
+.confectionery__wt {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
 /* faq */
 .faq {
     background: #00283E;
@@ -912,9 +920,28 @@ a{
 [class^="bi-"]::before, [class*=" bi-"]::before{
 	color: black;
 }
+.btn-counter{
+	width: 22px;
+	height: 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 11px 6px;
+	color: #ffffff;
+	background: #006095;
+	border-radius: 5px;
+	border: none;
+}
 /* UTILITIES */
 .w220{
 	width: 220px;
+}
+.bgcy{
+	background: #F4DA0E !important;
+	font-weight: 700 !important;
+	font-size: 20px !important;
+	line-height: 23px !important;
+	color: #006095 !important;
 }
 .mb16{
 	margin-bottom: 16px;
@@ -931,6 +958,9 @@ a{
 .jcc{
 	justify-content: center;
 }
+.lh1{
+	line-height: 1;
+}
 .df{
 	display: flex;
 }
@@ -943,8 +973,14 @@ a{
 .tac{
 	text-align: center;
 }
+.fs20{
+	font-size: 20px;
+}
 .g8{
-	
+	gap:8px;
+}
+.g32{
+	gap: 32px;
 }
 .tar{
 	text-align: right;
@@ -958,8 +994,17 @@ a{
 .mb48{
 	margin-bottom: 48px;
 }
+.mb32{
+	margin-bottom: 32px;
+}
 .maw416{
 	max-width: 416px;
+}
+.fs24{
+	font-size: 24px;
+}
+.mta{
+	margin-top: auto;
 }
 .cg{
 	background: #B9B9B9 !important;
@@ -989,7 +1034,16 @@ a{
 	border: 1px solid #000;
 }
 
-
+.confectionery__btn {
+    font-weight: 700;
+    font-size: 16px;
+    background: #006095;
+    border-radius: 10px;
+    color: #fff; 
+    padding: 15px 78px;
+    margin-bottom: auto;
+	border:none;
+}
 .input__wrapper {
   width: auto;
   position: absolute;
