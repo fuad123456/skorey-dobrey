@@ -864,6 +864,9 @@ a{
 .cg{
 	color: #B6B6B6;
 }
+.bgcg{
+	background-color: #B9B9B9 !important;
+}
 .cy{
 	background: #F4DA0E !important;
 	color: #006095 !important;
