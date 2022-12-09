@@ -864,6 +864,10 @@ a{
 .cg{
 	color: #B6B6B6;
 }
+.cy{
+	background: #F4DA0E !important;
+	color: #006095 !important;
+}
 .my32{
 	margin-top: 32px;
 	margin-bottom: 32px;
@@ -944,6 +948,13 @@ a{
   margin: 0 auto;
 }
 /* COMPONENTS */
+.card{
+	padding:0 !important;
+}
+.hidden-text{
+	height: 100px;
+	overflow: scroll;
+}
 .our-card{
 	border-radius: 10px;
 	height: 100%;
